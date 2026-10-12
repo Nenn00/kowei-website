@@ -12,6 +12,7 @@ fr:
   provisional_title: Document provisoire
   provisional_text: Ce texte est en cours de rédaction et n'a pas de valeur définitive. Les informations signalées « À COMPLÉTER » seront renseignées après relecture.
   updated: "Dernière mise à jour :"
+  version: "Version :"
   home_url: /
   legal_url: /legal/
   privacy_url: /privacy/
@@ -29,6 +30,7 @@ en:
   provisional_title: Provisional document
   provisional_text: This text is being drafted and is not final. Information marked “TO BE COMPLETED” will be provided after review.
   updated: "Last updated:"
+  version: "Version:"
   home_url: /en/
   legal_url: /en/legal/
   privacy_url: /en/privacy/

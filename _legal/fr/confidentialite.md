@@ -11,6 +11,7 @@ alt_url: /en/privacy/
 provisional: false
 updated: 2026-10-12
 noindex: true
+version: 2026-10-v1
 ---
 
 ## 1. Présentation
