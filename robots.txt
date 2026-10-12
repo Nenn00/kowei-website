@@ -1,0 +1,8 @@
+---
+layout: null
+permalink: /robots.txt
+---
+# Les pages juridiques provisoires portent une balise <meta name="robots" content="noindex">.
+# Ne pas les bloquer ici : les moteurs doivent pouvoir lire cette balise.
+User-agent: *
+Allow: /

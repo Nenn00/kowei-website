@@ -1,0 +1,37 @@
+# Configuration Jekyll — site officiel KOWEI
+# Compatible GitHub Pages (aucun plugin hors liste blanche, aucun build externe).
+
+title: KOWEI.
+url: "https://kowei.app"
+baseurl: ""
+
+# Langue par défaut (racine). L'anglais est servi sous /en/.
+lang: fr
+languages: [fr, en]
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+
+# Textes juridiques : un fichier Markdown par page et par langue.
+# Les URL sont fixées explicitement par le champ `permalink` de chaque fichier.
+collections:
+  legal:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: legal
+    values:
+      layout: legal
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
+  - .jekyll-cache
+  - .sass-cache

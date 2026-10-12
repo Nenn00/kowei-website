@@ -1,0 +1,248 @@
+/* KOWEI. — feuille de style unique
+   Polices système uniquement : aucune ressource externe. */
+
+:root {
+  --ivory: #FAF8F3;
+  --ink: #111111;
+  --ink-soft: #4A4A46;   /* contraste ≈ 8.6:1 sur ivoire */
+  --rule: #DDD8CC;
+  --note: #F1ECDF;
+
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua",
+           Georgia, "Times New Roman", serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+          Arial, sans-serif;
+  --logo: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI",
+          Roboto, Arial, sans-serif;
+
+  --measure: 38rem;
+  --gutter: clamp(1.25rem, 5vw, 3rem);
+
+  color-scheme: light;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  background: var(--ivory);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+main { flex: 1; width: 100%; }
+main:focus { outline: none; }
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+a:hover { text-decoration-thickness: 2px; }
+
+:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: absolute;
+  left: var(--gutter);
+  top: -3rem;
+  padding: 0.5rem 0.75rem;
+  background: var(--ink);
+  color: var(--ivory);
+  font-family: var(--sans);
+  font-size: 0.875rem;
+  text-decoration: none;
+  z-index: 10;
+}
+.skip-link:focus { top: 1rem; }
+
+/* En-tête */
+
+.site-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.75rem var(--gutter);
+}
+
+/* Logo « KOWEI. » : sans-serif fine, lettres espacées (identité de l'application) */
+.wordmark,
+.logo {
+  font-family: var(--logo);
+}
+
+.wordmark {
+  font-weight: 300;
+  font-size: 1.125rem;
+  letter-spacing: 0.3em;
+  text-decoration: none;
+}
+.home .wordmark { visibility: hidden; }
+
+.lang-switch {
+  font-family: var(--sans);
+  font-size: 0.8125rem;
+  letter-spacing: 0.12em;
+  text-decoration: none;
+  padding: 0.5rem 0;   /* zone tactile confortable */
+}
+.lang-switch:hover { text-decoration: underline; }
+
+/* Accueil */
+
+.hero {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem var(--gutter);
+  max-width: calc(var(--measure) + 2 * var(--gutter));
+  margin: 0 auto;
+}
+
+.hero-title {
+  margin: 0 0 1.5rem;
+  font-size: clamp(3.5rem, 14vw, 7.5rem);
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.04em;
+}
+
+/* Taille réduite par rapport au titre serif pour absorber l'espacement :
+   aucun débordement de 320 px à l'écran large. */
+.hero-title.logo {
+  font-size: clamp(2.5rem, 11vw, 6.5rem);
+  font-weight: 200;
+  letter-spacing: 0.3em;
+  margin-right: -0.3em;   /* neutralise l'espace ajouté après le point */
+}
+
+.lead {
+  margin: 0 0 0.75rem;
+  font-size: clamp(1.125rem, 2.5vw, 1.375rem);
+  color: var(--ink-soft);
+}
+
+.status {
+  margin: 2.5rem 0 0;
+  font-family: var(--sans);
+  font-size: 0.8125rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+/* Pages juridiques */
+
+.legal {
+  max-width: calc(var(--measure) + 2 * var(--gutter));
+  margin: 0 auto;
+  padding: 3rem var(--gutter) 5rem;
+}
+
+.legal h1 {
+  margin: 0 0 0.5rem;
+  font-size: clamp(2rem, 6vw, 2.75rem);
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+.legal h2 {
+  margin: 3rem 0 0.75rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.legal p, .legal ul { margin: 0 0 1rem; }
+.legal ul { padding-left: 1.25rem; }
+.legal li { margin-bottom: 0.35rem; }
+
+.legal hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 3rem 0 1.5rem;
+}
+
+.updated {
+  font-family: var(--sans);
+  font-size: 0.875rem;
+  color: var(--ink-soft);
+}
+
+.provisional {
+  margin: 0 0 2.5rem;
+  padding: 1rem 1.25rem;
+  background: var(--note);
+  border-left: 3px solid var(--ink);
+  font-family: var(--sans);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+.provisional p { margin: 0; }
+.provisional p + p { margin-top: 0.35rem; }
+
+/* Pied de page */
+
+.site-footer {
+  padding: 2rem var(--gutter) 2.5rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--sans);
+  font-size: 0.8125rem;
+  color: var(--ink-soft);
+}
+
+.site-footer ul {
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.75rem;
+}
+
+.site-footer a { text-decoration: none; }
+.site-footer a:hover,
+.site-footer a[aria-current="page"] { text-decoration: underline; }
+
+.copyright { margin: 0; }
+
+@media (min-width: 48rem) {
+  .site-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .site-footer ul { margin: 0; }
+}
+
+@media print {
+  .site-header nav, .site-footer nav, .skip-link { display: none; }
+  body { background: #fff; }
+}

@@ -1,0 +1,13 @@
+{%- assign lang = page.lang | default: site.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- assign other = "en" -%}{%- if lang == "en" -%}{%- assign other = "fr" -%}{%- endif -%}
+<a class="skip-link" href="#contenu">{{ t.skip }}</a>
+<header class="site-header">
+  <a class="wordmark" href="{{ t.home_url | relative_url }}" aria-label="KOWEI — {{ t.home }}">KOWEI.</a>
+  <nav aria-label="{{ t.nav_label }}">
+    <a class="lang-switch" href="{{ page.alt_url | default: site.data.i18n[other].home_url | relative_url }}" hreflang="{{ other }}" lang="{{ other }}">
+      <span aria-hidden="true">{{ t.lang_switch_short }}</span>
+      <span class="visually-hidden">{{ t.lang_switch }}</span>
+    </a>
+  </nav>
+</header>

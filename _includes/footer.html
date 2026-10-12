@@ -1,0 +1,12 @@
+{%- assign lang = page.lang | default: site.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+<footer class="site-footer">
+  <nav aria-label="{{ t.footer_label }}">
+    <ul>
+      <li><a href="{{ t.legal_url | relative_url }}"{% if page.url == t.legal_url %} aria-current="page"{% endif %}>{{ t.legal }}</a></li>
+      <li><a href="{{ t.privacy_url | relative_url }}"{% if page.url == t.privacy_url %} aria-current="page"{% endif %}>{{ t.privacy }}</a></li>
+      <li><a href="{{ t.terms_url | relative_url }}"{% if page.url == t.terms_url %} aria-current="page"{% endif %}>{{ t.terms }}</a></li>
+    </ul>
+  </nav>
+  <p class="copyright">© {{ site.time | date: "%Y" }} KOWEI</p>
+</footer>

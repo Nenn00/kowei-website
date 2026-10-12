@@ -1,0 +1,26 @@
+{%- assign lang = page.lang | default: site.lang -%}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+{%- if page.description %}
+<meta name="description" content="{{ page.description }}">
+{%- endif %}
+{%- if page.provisional or page.noindex %}
+<meta name="robots" content="noindex, nofollow">
+{%- endif %}
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#FAF8F3">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+{%- if page.alt_url %}
+{%- if lang == "fr" %}
+<link rel="alternate" hreflang="fr" href="{{ page.url | absolute_url }}">
+<link rel="alternate" hreflang="en" href="{{ page.alt_url | absolute_url }}">
+<link rel="alternate" hreflang="x-default" href="{{ page.url | absolute_url }}">
+{%- else %}
+<link rel="alternate" hreflang="en" href="{{ page.url | absolute_url }}">
+<link rel="alternate" hreflang="fr" href="{{ page.alt_url | absolute_url }}">
+<link rel="alternate" hreflang="x-default" href="{{ page.alt_url | absolute_url }}">
+{%- endif %}
+{%- endif %}
+<link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">

@@ -1,0 +1,18 @@
+---
+layout: default
+---
+{%- assign lang = page.lang | default: site.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+<article class="legal">
+  {%- if page.provisional %}
+  <aside class="provisional" role="note">
+    <p><strong>{{ t.provisional_title }}</strong></p>
+    <p>{{ t.provisional_text }}</p>
+  </aside>
+  {%- endif %}
+  <h1>{{ page.title }}</h1>
+  {%- if page.updated %}
+  <p class="updated">{{ t.updated }} <time datetime="{{ page.updated | date: '%Y-%m-%d' }}">{{ page.updated | date: "%d/%m/%Y" }}</time></p>
+  {%- endif %}
+  {{ content }}
+</article>
