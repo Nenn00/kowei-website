@@ -8,10 +8,10 @@ title: Politique de confidentialité
 lang: fr
 permalink: /privacy/
 alt_url: /en/privacy/
-provisional: true
+provisional: false
+updated: 2026-10-12
+noindex: true
 ---
-
-**Version provisoire — 12 octobre 2026**
 
 ## 1. Présentation
 
@@ -28,8 +28,6 @@ Le responsable du traitement des données personnelles est :
 **Paul Lagente**, éditeur du projet KOWEI.
 
 Contact : [kowei.app@gmail.com](mailto:kowei.app@gmail.com)
-
-Adresse de contact : 85 avenue Faidherbe, 92600 Asnières-sur-Seine, France.
 
 ## 3. Données personnelles traitées
 
@@ -149,9 +147,9 @@ Certaines traces techniques, certains signalements, retours utilisateurs et jour
 
 Une demande de suppression de ces données peut être adressée à [kowei.app@gmail.com](mailto:kowei.app@gmail.com).
 
-KOWEI. prévoit de limiter à 12 mois la conservation de ces données. Cette durée n'est pas encore appliquée automatiquement.
+KOWEI. a fixé à 12 mois la durée de conservation des signalements, des messages adressés au support et des avis et retours utilisateurs enregistrés dans l'application, sous réserve des exceptions prévues par la loi. Un mécanisme de suppression automatique correspondant a été mis en place ; il est en cours de vérification et n'est pas encore activé. La présente politique sera mise à jour lors de son activation.
 
-**À compléter avant publication : mise en application effective de cette durée de conservation.**
+Les copies des messages adressés au support et des avis et retours utilisateurs reçues par e-mail sont supprimées manuellement à l'issue du même délai de 12 mois, sauf obligation légale justifiant une conservation plus longue.
 
 KOWEI. n'applique pas actuellement de suppression automatique des comptes après 24 mois d'inactivité.
 

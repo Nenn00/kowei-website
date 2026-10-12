@@ -8,10 +8,10 @@ title: Mentions légales
 lang: fr
 permalink: /legal/
 alt_url: /en/legal/
-provisional: true
+provisional: false
+updated: 2026-10-12
+noindex: true
 ---
-
-**Version provisoire — 12 octobre 2026**
 
 ## 1. Éditeur du site
 
@@ -19,13 +19,9 @@ Le site kowei.app est consacré à KOWEI., une application mobile en cours de d�
 
 Éditeur : Paul Lagente, personne physique.
 
-KOWEI. est à ce jour un projet personnel, gratuit et non professionnel. Aucune société KOWEI n'est immatriculée.
-
-Adresse de contact : 85 avenue Faidherbe, 92600 Asnières-sur-Seine, France.
+KOWEI. est à ce jour un projet personnel et gratuit, sans publicité, abonnement ni paiement intégré. Il est édité en son nom propre par Paul Lagente ; aucune société n'a été constituée pour l'exploiter. Les présentes mentions seront mises à jour si une structure dédiée est créée.
 
 Adresse électronique : [kowei.app@gmail.com](mailto:kowei.app@gmail.com)
-
-**À confirmer avant publication : validation juridique de la qualification non professionnelle de l'activité.**
 
 ## 2. Direction de la publication
 
@@ -35,9 +31,9 @@ Directeur de la publication : Paul Lagente.
 
 Le site est hébergé par GitHub Pages, service fourni par GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.
 
-Contact de l'hébergeur : [support.github.com](https://support.github.com/)
+Contact de l'hébergeur : [support.github.com](https://support.github.com/). GitHub ne publie pas de numéro de téléphone ; il est joignable par ce formulaire de contact.
 
-**À compléter avant publication : numéro de téléphone de l'hébergeur (GitHub ne publie pas de numéro officiel).**
+Les données de l'application KOWEI. sont hébergées par Supabase Pte. Ltd., 65 Chulia Street #38-02/03, OCBC Centre, Singapour 049513, dans une région située en Irlande (Union européenne). Contact : [supabase.com/support](https://supabase.com/support). Supabase ne publie pas de numéro de téléphone.
 
 ## 4. Propriété intellectuelle
 

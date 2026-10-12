@@ -8,10 +8,10 @@ title: Conditions générales d'utilisation
 lang: fr
 permalink: /terms/
 alt_url: /en/terms/
-provisional: true
+provisional: false
+updated: 2026-10-12
+noindex: true
 ---
-
-**Version provisoire — 12 octobre 2026**
 
 ## 1. Objet
 
@@ -23,13 +23,11 @@ Toute personne qui utilise KOWEI. s'engage à respecter les présentes condition
 
 ## 2. Éditeur et contact
 
-KOWEI. est un projet personnel, gratuit et non professionnel, édité par Paul Lagente, personne physique.
+KOWEI. est un projet personnel et gratuit, édité en son nom propre par Paul Lagente, personne physique. Aucune société n'a été constituée à ce jour pour l'exploiter.
 
 Adresse électronique : [kowei.app@gmail.com](mailto:kowei.app@gmail.com)
 
 Les informations complémentaires relatives à l'éditeur figurent dans les [Mentions légales](/legal/).
-
-**À confirmer avant publication : validation juridique de la qualification non professionnelle de l'activité.**
 
 ## 3. Accès au service
 
@@ -142,15 +140,22 @@ Les signalements sont transmis à l'éditeur et peuvent être examinés manuelle
 
 À ce jour, KOWEI. ne dispose ni d'un système de modération automatisé ni d'outils de modération intégrés à l'application. En cas de violation des présentes conditions ou de comportement illicite, l'éditeur peut intervenir manuellement, au cas par cas et dans la limite des moyens techniques disponibles, notamment pour retirer un contenu manifestement illicite. Des mesures de restriction ou de suspension de compte pourront être mises en place ultérieurement.
 
-Ces mesures doivent respecter les droits des utilisateurs et les obligations légales applicables, notamment les exigences de transparence, de notification et de recours lorsqu'elles s'appliquent.
+**Signaler un contenu illicite.** Toute personne peut signaler un contenu qu'elle estime illicite ou contraire aux présentes conditions en écrivant à [kowei.app@gmail.com](mailto:kowei.app@gmail.com), en indiquant :
 
-Toute personne peut signaler un contenu qu'elle estime illicite ou contraire aux présentes conditions en écrivant à [kowei.app@gmail.com](mailto:kowei.app@gmail.com), en indiquant : l'emplacement précis du contenu (profil, publication, commentaire ou message), les raisons du signalement, ses nom et adresse e-mail, ainsi qu'une déclaration attestant de sa bonne foi.
+- l'emplacement précis du contenu (profil, publication, commentaire ou message, et nom du compte concerné) ;
+- les raisons pour lesquelles ce contenu est jugé illicite ou contraire aux présentes conditions ;
+- ses nom et adresse électronique, sauf lorsque le signalement concerne des abus sexuels ou une exploitation sexuelle d'enfants ;
+- une déclaration confirmant que les informations fournies sont exactes et que le signalement est fait de bonne foi.
 
-L'éditeur accuse réception du signalement, l'examine et informe son auteur de la suite donnée. Lorsqu'un contenu est retiré ou qu'une autre mesure est prise, l'utilisateur concerné en est informé par e-mail, avec les motifs de la décision, sauf exception prévue par la loi. Il peut contester cette décision en écrivant à la même adresse ; sa demande fait alors l'objet d'un nouvel examen.
+L'éditeur accuse réception du signalement, l'examine de manière diligente, objective et non arbitraire, puis informe son auteur de la décision prise et des voies de recours disponibles.
 
-**À confirmer avant publication : validation juridique de cette procédure au regard du règlement européen sur les services numériques (DSA).**
+**Décisions.** Lorsqu'un contenu est retiré ou rendu inaccessible, ou qu'une autre mesure est prise à l'égard d'un compte, l'utilisateur concerné en est informé par e-mail, sauf exception prévue par la loi. Ce message précise la mesure prise, les faits sur lesquels elle repose, son fondement (caractère illicite du contenu ou clause des présentes conditions) et les voies de recours. Aucune décision n'est prise par des moyens automatisés.
 
-Pour signaler un problème ou demander un réexamen, l'utilisateur peut contacter [kowei.app@gmail.com](mailto:kowei.app@gmail.com).
+**Contester une décision.** L'utilisateur concerné ou l'auteur du signalement peut contester gratuitement la décision en écrivant à la même adresse. Sa demande fait l'objet d'un nouvel examen, à l'issue duquel une réponse motivée lui est adressée. Il conserve en tout état de cause la possibilité de saisir les juridictions compétentes.
+
+**Infractions graves.** Lorsque l'éditeur a connaissance d'informations laissant soupçonner une infraction pénale menaçant la vie ou la sécurité d'une ou plusieurs personnes, il en informe sans délai les autorités compétentes.
+
+**Point de contact.** L'adresse [kowei.app@gmail.com](mailto:kowei.app@gmail.com) est le point de contact unique de KOWEI. pour les utilisateurs et les autorités, au sens des articles 11 et 12 du règlement (UE) 2022/2065 sur les services numériques. Les échanges peuvent avoir lieu en français ou en anglais.
 
 ## 12. Disponibilité et évolution du service
 

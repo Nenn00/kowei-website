@@ -8,10 +8,10 @@ title: Legal notice
 lang: en
 permalink: /en/legal/
 alt_url: /legal/
-provisional: true
+provisional: false
+updated: 2026-10-12
+noindex: true
 ---
-
-**Provisional version — 12 October 2026**
 
 ## 1. Website publisher
 
@@ -19,13 +19,9 @@ The kowei.app website is dedicated to KOWEI., a mobile application currently und
 
 Publisher: Paul Lagente, an individual (natural person).
 
-KOWEI. is currently a personal, free and non-professional project. No KOWEI company is registered.
-
-Contact address: 85 avenue Faidherbe, 92600 Asnières-sur-Seine, France.
+KOWEI. is currently a personal, free project, with no advertising, subscription or in-app payment. It is published directly by Paul Lagente, an individual (natural person); no company has been formed to operate it. This legal notice will be updated if a dedicated entity is created.
 
 Email address: [kowei.app@gmail.com](mailto:kowei.app@gmail.com)
-
-**To be confirmed before publication: legal validation of the non-professional classification of the activity.**
 
 ## 2. Publication director
 
@@ -35,9 +31,9 @@ Publication director: Paul Lagente.
 
 The website is hosted on GitHub Pages, a service provided by GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United States.
 
-Host contact: [support.github.com](https://support.github.com/)
+Host contact: [support.github.com](https://support.github.com/). GitHub does not publish a telephone number; it can be reached through this contact form.
 
-**To be completed before publication: the host's telephone number (GitHub does not publish an official number).**
+The KOWEI. application's data is hosted by Supabase Pte. Ltd., 65 Chulia Street #38-02/03, OCBC Centre, Singapore 049513, in a region located in Ireland (European Union). Contact: [supabase.com/support](https://supabase.com/support). Supabase does not publish a telephone number.
 
 ## 4. Intellectual property
 

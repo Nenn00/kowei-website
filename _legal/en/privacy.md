@@ -8,10 +8,10 @@ title: Privacy policy
 lang: en
 permalink: /en/privacy/
 alt_url: /privacy/
-provisional: true
+provisional: false
+updated: 2026-10-12
+noindex: true
 ---
-
-**Provisional version — 12 October 2026**
 
 ## 1. Introduction
 
@@ -28,8 +28,6 @@ The controller of personal data is:
 **Paul Lagente**, publisher of the KOWEI project.
 
 Contact: [kowei.app@gmail.com](mailto:kowei.app@gmail.com)
-
-Contact address: 85 avenue Faidherbe, 92600 Asnières-sur-Seine, France.
 
 ## 3. Personal data processed
 
@@ -149,9 +147,9 @@ To date, no automatic deletion is applied to reports, user feedback or certain i
 
 A request to delete this data may be sent to [kowei.app@gmail.com](mailto:kowei.app@gmail.com).
 
-KOWEI. intends to limit the retention of this data to 12 months. This period is not yet applied automatically.
+KOWEI. has set a 12-month retention period for reports, messages sent to support, and user feedback recorded in the application, subject to the exceptions provided for by law. A corresponding automatic deletion mechanism has been put in place; it is currently being verified and is not yet active. This policy will be updated when it is activated.
 
-**To be completed before publication: effective application of this retention period.**
+Copies of messages sent to support and of user feedback received by email are deleted manually at the end of the same 12-month period, unless a legal obligation justifies keeping them longer.
 
 KOWEI. does not currently apply automatic deletion of accounts after 24 months of inactivity.
 

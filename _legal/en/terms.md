@@ -8,10 +8,10 @@ title: Terms of use
 lang: en
 permalink: /en/terms/
 alt_url: /terms/
-provisional: true
+provisional: false
+updated: 2026-10-12
+noindex: true
 ---
-
-**Provisional version — 12 October 2026**
 
 ## 1. Purpose
 
@@ -23,13 +23,11 @@ Anyone who uses KOWEI. undertakes to comply with these Terms.
 
 ## 2. Publisher and contact
 
-KOWEI. is a personal, free and non-professional project published by Paul Lagente, an individual (natural person).
+KOWEI. is a personal, free project published directly by Paul Lagente, an individual (natural person). No company has been formed to date to operate it.
 
 Email address: [kowei.app@gmail.com](mailto:kowei.app@gmail.com)
 
 Further information about the publisher is available in the [Legal notice](/en/legal/).
-
-**To be confirmed before publication: legal validation of the non-professional classification of the activity.**
 
 ## 3. Access to the service
 
@@ -142,15 +140,22 @@ Reports are sent to the publisher and may be reviewed manually in order to preve
 
 To date, KOWEI. has neither an automated moderation system nor moderation tools built into the application. In the event of a breach of these Terms or unlawful conduct, the publisher may take action manually, on a case-by-case basis and within the limits of the technical means available, in particular to remove manifestly unlawful content. Measures restricting or suspending accounts may be introduced at a later date.
 
-Such measures must respect users' rights and the applicable legal obligations, in particular the requirements of transparency, notification and redress where they apply.
+**Reporting illegal content.** Anyone may report content they consider illegal or contrary to these Terms by writing to [kowei.app@gmail.com](mailto:kowei.app@gmail.com), stating:
 
-Anyone may report content they consider unlawful or contrary to these Terms by writing to [kowei.app@gmail.com](mailto:kowei.app@gmail.com), stating: the exact location of the content (profile, post, comment or message), the reasons for the report, their name and email address, and a statement confirming that the report is made in good faith.
+- the exact location of the content (profile, post, comment or message, and the name of the account concerned);
+- the reasons why the content is considered illegal or contrary to these Terms;
+- their name and email address, except where the report concerns child sexual abuse or exploitation;
+- a statement confirming that the information provided is accurate and that the report is made in good faith.
 
-The publisher acknowledges receipt of the report, reviews it and informs its author of the outcome. Where content is removed or another measure is taken, the user concerned is informed by email of the reasons for the decision, unless the law provides otherwise. They may challenge the decision by writing to the same address; their request will then be reviewed again.
+The publisher acknowledges receipt of the report, reviews it in a diligent, objective and non-arbitrary manner, and then informs its author of the decision taken and of the available means of redress.
 
-**To be confirmed before publication: legal validation of this procedure under the EU Digital Services Act (DSA).**
+**Decisions.** Where content is removed or disabled, or another measure is taken in respect of an account, the user concerned is informed by email, unless the law provides otherwise. This message states the measure taken, the facts on which it is based, its ground (illegality of the content or a clause of these Terms) and the available means of redress. No decision is taken by automated means.
 
-To report a problem or request a review, users may contact [kowei.app@gmail.com](mailto:kowei.app@gmail.com).
+**Challenging a decision.** The user concerned or the author of the report may challenge the decision free of charge by writing to the same address. Their request will be reviewed again, after which they will receive a reasoned response. They may in any event bring the matter before the competent courts.
+
+**Serious offences.** Where the publisher becomes aware of information giving rise to a suspicion of a criminal offence involving a threat to the life or safety of one or more persons, it promptly informs the competent authorities.
+
+**Point of contact.** The address [kowei.app@gmail.com](mailto:kowei.app@gmail.com) is KOWEI.'s single point of contact for users and authorities within the meaning of Articles 11 and 12 of Regulation (EU) 2022/2065 on digital services. Communications may take place in French or English.
 
 ## 12. Availability and changes to the service
 
