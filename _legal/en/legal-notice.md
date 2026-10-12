@@ -11,7 +11,7 @@ alt_url: /legal/
 provisional: true
 ---
 
-**Last updated: 12 October 2026**
+**Provisional version — 12 October 2026**
 
 ## 1. Website publisher
 
@@ -19,11 +19,13 @@ The kowei.app website is dedicated to KOWEI., a mobile application currently und
 
 Publisher: Paul Lagente, an individual (natural person).
 
+KOWEI. is currently a personal, free and non-professional project. No KOWEI company is registered.
+
 Contact address: 85 avenue Faidherbe, 92600 Asnières-sur-Seine, France.
 
 Email address: [kowei.app@gmail.com](mailto:kowei.app@gmail.com)
 
-**Legal status and registration details: to be completed once the legal classification of the activity has been verified.**
+**To be confirmed before publication: legal validation of the non-professional classification of the activity.**
 
 ## 2. Publication director
 
@@ -31,9 +33,11 @@ Publication director: Paul Lagente.
 
 ## 3. Hosting
 
-The website is intended to be hosted on GitHub Pages, a service provided by GitHub.
+The website is hosted on GitHub Pages, a service provided by GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United States.
 
-**Full legal details of the host: to be verified and completed before publication.**
+Host contact: [support.github.com](https://support.github.com/)
+
+**To be completed before publication: the host's telephone number (GitHub does not publish an official number).**
 
 ## 4. Intellectual property
 
@@ -41,7 +45,7 @@ The KOWEI. name, the project's visual identity, and the texts, graphic elements 
 
 Any unauthorised reproduction or use of these elements is prohibited, except as permitted by law.
 
-Content published by users of the application remains subject to the rights of its respective holders and to the KOWEI terms of use.
+Content published by users of the application remains subject to the rights of its respective holders and to the KOWEI [terms of use](/en/terms/).
 
 ## 5. Personal data
 

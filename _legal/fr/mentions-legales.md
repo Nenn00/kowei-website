@@ -11,7 +11,7 @@ alt_url: /en/legal/
 provisional: true
 ---
 
-**Dernière mise à jour : 12 octobre 2026**
+**Version provisoire — 12 octobre 2026**
 
 ## 1. Éditeur du site
 
@@ -19,11 +19,13 @@ Le site kowei.app est consacré à KOWEI., une application mobile en cours de d�
 
 Éditeur : Paul Lagente, personne physique.
 
+KOWEI. est à ce jour un projet personnel, gratuit et non professionnel. Aucune société KOWEI n'est immatriculée.
+
 Adresse de contact : 85 avenue Faidherbe, 92600 Asnières-sur-Seine, France.
 
 Adresse électronique : [kowei.app@gmail.com](mailto:kowei.app@gmail.com)
 
-**Statut juridique et informations d'immatriculation : à compléter après vérification de la qualification de l'activité.**
+**À confirmer avant publication : validation juridique de la qualification non professionnelle de l'activité.**
 
 ## 2. Direction de la publication
 
@@ -31,9 +33,11 @@ Directeur de la publication : Paul Lagente.
 
 ## 3. Hébergement
 
-Le site est destiné à être hébergé par GitHub Pages, service proposé par GitHub.
+Le site est hébergé par GitHub Pages, service fourni par GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.
 
-**Coordonnées légales complètes de l'hébergeur : à vérifier et compléter avant publication.**
+Contact de l'hébergeur : [support.github.com](https://support.github.com/)
+
+**À compléter avant publication : numéro de téléphone de l'hébergeur (GitHub ne publie pas de numéro officiel).**
 
 ## 4. Propriété intellectuelle
 
@@ -41,7 +45,7 @@ La dénomination KOWEI., l'identité visuelle du projet, les textes, les éléme
 
 Toute reproduction ou utilisation non autorisée de ces éléments est interdite, sauf exceptions prévues par la loi.
 
-Les contenus publiés par les utilisateurs de l'application demeurent soumis aux droits de leurs titulaires respectifs et aux conditions générales d'utilisation de KOWEI.
+Les contenus publiés par les utilisateurs de l'application demeurent soumis aux droits de leurs titulaires respectifs et aux [conditions générales d'utilisation](/terms/) de KOWEI.
 
 ## 5. Données personnelles
 

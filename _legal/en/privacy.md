@@ -9,43 +9,216 @@ lang: en
 permalink: /en/privacy/
 alt_url: /privacy/
 provisional: true
-# updated: 2026-10-12
 ---
 
-## Data controller
+**Provisional version — 12 October 2026**
 
-Paul Lagente, publisher of the KOWEI project.
-Contact: **[TO BE COMPLETED: dedicated personal data contact email]**
+## 1. Introduction
 
-## kowei.app website
+KOWEI. is a mobile application designed to enable creatives, particularly in the fashion professions, to showcase their creative world, discover talent, exchange with one another and explore collaborations.
 
-This website sets no cookies and includes no audience measurement, advertising or tracking tools.
+This policy explains which personal data is processed, why it is processed, who can access it and how users can exercise their rights.
 
-**[TO BE COMPLETED: technical data possibly collected by the host (server logs, IP address), purpose and retention period, to be verified with the host]**
+It applies to the KOWEI. application and to the kowei.app website.
 
-## KOWEI mobile app
+## 2. Data controller
 
-**[TO BE COMPLETED: description of processing related to the app, after review]**
+The controller of personal data is:
 
-- Data collected: **[TO BE COMPLETED]**
-- Purposes: **[TO BE COMPLETED]**
-- Legal bases: **[TO BE COMPLETED]**
-- Retention periods: **[TO BE COMPLETED]**
-- Recipients and processors: **[TO BE COMPLETED: technical providers used, to be confirmed]**
-- Transfers outside the European Union: **[TO BE COMPLETED]**
+**Paul Lagente**, publisher of the KOWEI project.
 
-## Your rights
+Contact: [kowei.app@gmail.com](mailto:kowei.app@gmail.com)
 
-**[TO BE COMPLETED: data subject rights and how to exercise them]**
+Contact address: 85 avenue Faidherbe, 92600 Asnières-sur-Seine, France.
 
-## Complaints
+## 3. Personal data processed
 
-**[TO BE COMPLETED: information on the right to lodge a complaint with the supervisory authority]**
+Depending on how KOWEI. is used, the following data may be processed:
 
-## Changes
+**Account and authentication**
 
-**[TO BE COMPLETED: how users are informed of changes to this policy]**
+- Email address and information required for authentication.
+- Account identifier and sign-in information via Google, where this method is used.
+- Confirmation of being at least 16 years old and the date of that confirmation.
+- Information required to manage and recover the account.
+- Date of the account's last activity, corresponding to the day the application was last used.
 
----
+**Profile and professional activity**
 
-*The French version of this policy prevails in case of discrepancy.* **[TO BE CONFIRMED]**
+- First name, last name or username.
+- Profile photo, bio, profession, skills and experience.
+- Location provided voluntarily, availability and services offered.
+- Visibility preferences and profile settings.
+
+**Content and interactions**
+
+- Posts, photos, videos, comments and likes.
+- Follows, saved items, projects and collaborations.
+- Invitations, project requests and quote proposals.
+
+**Messaging**
+
+- Messages exchanged, and attached photos and videos.
+- Participants, dates, read status and status of message requests.
+
+**Security and support**
+
+- Account blocks and reports.
+- Messages sent to KOWEI. support.
+- Feedback, suggestions and reports of technical issues.
+- Technical data required for the security, authentication and operation of the service, including certain identifiers, events and logs.
+
+KOWEI. does not ask for a full date of birth to confirm the minimum age.
+
+## 4. Purposes and legal bases
+
+The data is used to:
+
+- **Create and manage accounts, profiles, posts and exchanges**: performance of the terms of use of the service.
+- **Enable profile discovery and collaborations**: performance of the service requested.
+- **Ensure security, prevent abuse and handle reports**: legitimate interest in protecting users and the service, subject to the rights and freedoms of the data subjects.
+- **Respond to contact requests**: depending on the nature of the request, performance of the service or legitimate interest in providing support.
+- **Collect feedback and improve KOWEI.**: legitimate interest in improving the operation of the service.
+- **Comply with applicable legal obligations**: legal obligation, where a legal provision requires the processing.
+
+Voluntarily publishing content, or choosing to make it visible, does not automatically constitute consent to every possible use of that data.
+
+## 5. Mandatory and optional data
+
+Certain information is required to open and operate an account, in particular the email address, a first name or username, and confirmation of the minimum age.
+
+When signing up, a last name may optionally be added. The first name or username and any last name together form the name displayed on the profile, which can later be changed in the application.
+
+Other information is optional: profession, photo, experience, stated location and professional bio.
+
+Not providing optional information does not prevent use of the general features of KOWEI., but may limit certain discovery or presentation features.
+
+## 6. Visibility and recipients
+
+Information published on profiles and in the public areas of KOWEI. may be viewed by other users and, for certain content, by visitors who are not signed in.
+
+Privacy settings make it possible to limit the display of certain social or professional information. Hiding a section does not necessarily mean that the corresponding data is deleted.
+
+Private messages are normally accessible to the participants in the conversation. They are not end-to-end encrypted. Persons authorised to administer the infrastructure may technically access the data where this is necessary and authorised.
+
+KOWEI. administrators may view and manage exchanges addressed to the official KOWEI. account.
+
+Data may also be processed by the technical service providers required for the operation of the service.
+
+## 7. Service providers and hosting
+
+KOWEI. uses, in particular:
+
+- **Supabase**: authentication, database, media storage, real-time messaging and server functions. The project's primary region is located in Ireland, in the European Union.
+- **Google**: account sign-in when the user chooses Google and, depending on the configuration of the mailbox, receipt of certain support communications.
+- **Resend**: forwarding to KOWEI., by email, of messages sent through the application's contact form.
+- **GitHub Pages**: hosting of the public kowei.app website.
+
+These providers may process certain data in accordance with their respective roles and the applicable agreements.
+
+## 8. International transfers
+
+Although the primary region of the Supabase database is located in the European Union, some providers are established outside the European Economic Area or may involve international services.
+
+Any transfers must be governed by the mechanisms provided for by the GDPR, in particular an applicable adequacy decision or appropriate safeguards.
+
+The safeguards indicated by the providers concerned are as follows:
+
+- **Supabase**: Supabase's data processing addendum (Supabase Pte. Ltd., Singapore) relies on the standard contractual clauses adopted by the European Commission (Implementing Decision (EU) 2021/914).
+- **Resend**: Resend states that it is certified under the EU-U.S. Data Privacy Framework.
+- **Google**: Google LLC states that it adheres to the EU-U.S. Data Privacy Framework and uses standard contractual clauses where required.
+- **GitHub**: GitHub, Inc., which hosts the kowei.app website, states that it complies with the EU-U.S. Data Privacy Framework.
+
+The EU-U.S. Data Privacy Framework is covered by an adequacy decision of the European Commission.
+
+Further information about these safeguards may be obtained at [kowei.app@gmail.com](mailto:kowei.app@gmail.com).
+
+## 9. Data retention
+
+Data required for the operation of an account is generally kept while the account is in use, unless deleted by the user or where otherwise justified.
+
+Posts, profiles and related information may be edited or deleted using the available features.
+
+When an account is deleted, the main profile information and the public content of that account are deleted or anonymised.
+
+Certain messages already sent to other users may be kept in their conversations and appear as "Deleted account", including with associated media.
+
+Certain technical traces, certain reports, user feedback and security logs may also remain after an account is deleted.
+
+To date, no automatic deletion is applied to reports, user feedback or certain internal technical logs: this data is kept until it is deleted manually. Messages sent to support are deleted from the database together with their author's account; copies received by email are kept in KOWEI.'s mailbox until they are deleted manually.
+
+A request to delete this data may be sent to [kowei.app@gmail.com](mailto:kowei.app@gmail.com).
+
+KOWEI. intends to limit the retention of this data to 12 months. This period is not yet applied automatically.
+
+**To be completed before publication: effective application of this retention period.**
+
+KOWEI. does not currently apply automatic deletion of accounts after 24 months of inactivity.
+
+## 10. Account deletion
+
+Users can request the deletion of their account from the application's settings.
+
+This operation results in the deletion or anonymisation of much of the data associated with the account.
+
+It does not necessarily remove messages already received by other users, nor all information that must be temporarily kept for a legitimate or legal reason.
+
+For any question or further request regarding the erasure of data: [kowei.app@gmail.com](mailto:kowei.app@gmail.com).
+
+## 11. Data security
+
+KOWEI. implements technical measures designed to limit unauthorised access, including database access rules, private storage areas for certain attachments and authentication mechanisms.
+
+Media published in public areas may be accessible through their links.
+
+No system can guarantee absolute security. Users are asked not to publish confidential information, or personal data about third parties without their permission.
+
+## 12. User rights
+
+In accordance with the GDPR, and subject to the conditions laid down by the regulations, users may exercise the following rights:
+
+- Access to their personal data.
+- Rectification of inaccurate information.
+- Erasure.
+- Restriction of certain processing.
+- Objection to processing based on legitimate interest.
+- Portability, where the legal conditions are met.
+- Withdrawal of consent, where processing is based on consent.
+
+Requests may be sent to [kowei.app@gmail.com](mailto:kowei.app@gmail.com).
+
+A response will be provided within the time limits laid down by the regulations, in principle within one month, subject to any extensions permitted by law.
+
+Users may also lodge a complaint with the French data protection authority, the Commission nationale de l'informatique et des libertés (CNIL): [www.cnil.fr](https://www.cnil.fr).
+
+## 13. Minors
+
+KOWEI. is reserved for persons aged at least **16**.
+
+When signing up, users must confirm that they meet this requirement.
+
+KOWEI. does not collect the full date of birth for this check.
+
+## 14. Cookies, local storage and statistics
+
+The application stores certain technical information on the device, including session data and preferences required for it to work.
+
+To date, KOWEI. does not include any advertising system or any third-party behavioural tracking or audience measurement tool in the application.
+
+Technical data may nevertheless be processed by the infrastructure required for its operation.
+
+The showcase website is designed without any built-in advertising or audience tracking tool. Its host, GitHub, logs visitors' IP addresses for security purposes.
+
+## 15. Changes to this policy
+
+This policy may be amended to reflect changes to KOWEI., its features or the regulations.
+
+In the event of a substantial change affecting the processing of personal data, users will be informed by appropriate means.
+
+The date of the last update appears at the top of this document.
+
+## 16. Contact
+
+For any question about this policy or the protection of personal data:
+
+**[kowei.app@gmail.com](mailto:kowei.app@gmail.com)**
