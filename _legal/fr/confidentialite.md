@@ -9,9 +9,9 @@ lang: fr
 permalink: /privacy/
 alt_url: /en/privacy/
 provisional: false
-updated: 2026-10-12
+updated: 2026-10-19
 noindex: true
-version: 2026-10-v1
+version: 2026-10-v2
 ---
 
 ## 1. Présentation
@@ -37,8 +37,9 @@ Selon l'utilisation de KOWEI., les données suivantes peuvent être traitées :
 **Compte et authentification**
 
 - Adresse e-mail et informations nécessaires à l'authentification.
-- Identifiant de compte et informations de connexion via Google, lorsque cette méthode est utilisée.
+- Identifiant de compte et informations de connexion via Google ou Apple, lorsque l'une de ces méthodes est utilisée. Avec « Se connecter avec Apple », le nom et l'adresse e-mail sont ceux que l'utilisateur choisit de partager ; l'adresse peut être une adresse relais fournie par Apple.
 - Confirmation d'avoir au moins 16 ans et date de cette confirmation.
+- Versions des conditions d'utilisation et de la politique de confidentialité acceptées, et date de cette acceptation.
 - Informations nécessaires à la gestion et à la récupération du compte.
 - Date de dernière activité du compte, correspondant au jour de la dernière utilisation de l'application.
 
@@ -57,12 +58,20 @@ Selon l'utilisation de KOWEI., les données suivantes peuvent être traitées :
 
 **Messagerie**
 
-- Messages échangés, photos et vidéos jointes.
+- Messages échangés, photos, vidéos, messages vocaux et documents joints.
 - Participants, dates, état de lecture et statut des demandes de messages.
+
+**Notifications**
+
+- Jeton de notification de l'appareil, identifiant technique de l'installation et préférences de notification par catégorie.
+- Contenu des notifications envoyées : nom de l'expéditeur et, si l'option « Aperçu des messages » est activée, un extrait du message ou son type (photo, vidéo, message vocal, fichier).
 
 **Sécurité et assistance**
 
-- Blocages et signalements de comptes.
+- Blocages.
+- Signalements de comptes, publications, projets, commentaires, photos de profil et messages, avec le motif choisi et la description éventuelle.
+- Pour un commentaire ou un message signalé : une copie du contenu signalé, conservée comme preuve, et, uniquement si la personne qui signale le choisit, au plus deux messages précédents de la même personne.
+- Résultats de l'analyse automatique des contenus avant publication (décision, catégorie concernée, scores), décisions de modération, contestations et restrictions éventuelles.
 - Messages adressés au support KOWEI.
 - Avis, suggestions et signalements de problèmes techniques.
 - Données techniques nécessaires à la sécurité, à l'authentification et au fonctionnement du service, notamment certains identifiants, événements et journaux.
@@ -76,11 +85,17 @@ Les données sont utilisées pour :
 - **Créer et gérer les comptes, profils, publications et échanges** : exécution des conditions d'utilisation du service.
 - **Permettre la découverte de profils et les collaborations** : exécution du service demandé.
 - **Assurer la sécurité, prévenir les abus et traiter les signalements** : intérêt légitime à protéger les utilisateurs et le service, sous réserve des droits et libertés des personnes concernées.
+- **Analyser les contenus avant leur publication et prendre les décisions de modération** : intérêt légitime à protéger les utilisateurs et le service, et respect des obligations applicables aux services d'hébergement et aux plateformes en ligne (règlement (UE) 2022/2065 sur les services numériques).
+- **Envoyer des notifications** : consentement donné en autorisant les notifications sur l'appareil ; il peut être retiré à tout moment dans les réglages de l'appareil ou de l'application.
 - **Répondre aux demandes de contact** : selon la nature de la demande, exécution du service ou intérêt légitime à assurer l'assistance.
 - **Recueillir les avis et améliorer KOWEI.** : intérêt légitime à améliorer le fonctionnement du service.
 - **Respecter les obligations légales applicables** : obligation légale lorsqu'un texte impose le traitement.
 
 La publication volontaire d'un contenu ou le choix de le rendre visible ne constitue pas automatiquement un consentement à toutes les utilisations possibles de ces données.
+
+**Analyse automatique avant publication.** Avant d'être rendus visibles, les textes et photos des publications, les photos de profil et les modifications de légende sont analysés automatiquement. Selon le résultat, le contenu est publié, mis en attente d'un examen par une personne, ou refusé sans intervention humaine lorsque l'analyse indique avec une forte probabilité qu'il est contraire aux conditions d'utilisation. Les vidéos sont toujours examinées par une personne. L'auteur voit l'état de son contenu dans l'application et peut demander qu'un refus soit réexaminé par une personne, une fois et dans les 30 jours, depuis l'application (« Demander un réexamen ») ou en écrivant à [kowei.app@gmail.com](mailto:kowei.app@gmail.com).
+
+**Autorisation du partage avec OpenAI.** Avant le premier envoi d'un contenu concerné, l'application demande une autorisation explicite de transmettre ces contenus à OpenAI, distincte de l'acceptation des conditions d'utilisation ; elle est enregistrée avec sa date et la version du texte présenté. Un refus empêche de publier, de modifier le texte d'une publication ou de changer de photo de profil, sans empêcher l'utilisation des autres fonctionnalités de KOWEI.
 
 ## 5. Données obligatoires et facultatives
 
@@ -102,6 +117,8 @@ Les messages privés sont normalement accessibles aux participants de la convers
 
 Les administrateurs KOWEI. peuvent consulter et gérer les échanges adressés au compte officiel KOWEI.
 
+Les personnes chargées de la modération peuvent consulter les contenus mis en attente d'examen et les contenus signalés. Elles ne consultent pas les messages privés : seul un message reçu et signalé par son destinataire leur est transmis, avec, au choix de la personne qui signale, au plus deux messages précédents de la même personne. L'identité de la personne qui signale n'est pas communiquée à la personne signalée.
+
 Les données peuvent également être traitées par les prestataires techniques nécessaires au fonctionnement du service.
 
 ## 7. Prestataires et hébergement
@@ -110,6 +127,9 @@ KOWEI. utilise notamment :
 
 - **Supabase** : authentification, base de données, stockage des médias, messagerie en temps réel et fonctions serveur. La région principale du projet est située en Irlande, dans l'Union européenne.
 - **Google** : connexion au compte lorsque l'utilisateur choisit Google et, selon la configuration de la messagerie, réception de certaines communications de support.
+- **Apple** : connexion au compte lorsque l'utilisateur choisit « Se connecter avec Apple », et acheminement des notifications vers les appareils iOS (Apple Push Notification service).
+- **Expo** (650 Industries, Inc.) : service d'envoi des notifications vers les appareils.
+- **OpenAI** : analyse automatique des textes et des photos avant publication (service de modération). Les contenus sont transmis sans nom ni identifiant de compte.
 - **Resend** : transmission à KOWEI., par e-mail, des messages envoyés depuis le formulaire de contact de l'application.
 - **GitHub Pages** : hébergement du site public kowei.app.
 
@@ -127,6 +147,9 @@ Les garanties indiquées par les prestataires concernés sont les suivantes :
 - **Resend** : Resend déclare être certifié au titre du cadre de protection des données UE–États-Unis (EU-U.S. Data Privacy Framework).
 - **Google** : Google LLC déclare adhérer au cadre de protection des données UE–États-Unis et recourir aux clauses contractuelles types lorsque cela est nécessaire.
 - **GitHub** : GitHub, Inc., qui héberge le site kowei.app, déclare respecter le cadre de protection des données UE–États-Unis.
+- **OpenAI** : l'utilisation de son service de modération est régie par le contrat de services d'OpenAI et son avenant relatif au traitement des données (version v.010126), dans lequel OpenAI agit comme sous-traitant. Selon cet avenant, quelle que soit l'entité OpenAI cocontractante, les données personnelles soumises au droit de la protection des données de l'EEE ou de la Suisse sont traitées par OpenAI Ireland Limited ; lorsque celle-ci les transfère hors de l'EEE ou de la Suisse pour fournir le service, ces transferts reposent sur des contrats contenant les clauses contractuelles types de la Commission européenne ou sur une décision d'adéquation. Selon la documentation d'OpenAI, les contenus envoyés à son service de modération ne sont pas utilisés pour entraîner ses modèles et ne sont pas conservés au titre de la surveillance des abus.
+- **Apple** : les données personnelles des personnes situées dans l'EEE traitées par Apple relèvent d'Apple Distribution International Limited (Irlande) ; selon la politique de confidentialité d'Apple, ses transferts internationaux de ces données sont encadrés par des clauses contractuelles types.
+- **Expo** : 650 Industries, Inc. (États-Unis) déclare respecter le cadre de protection des données UE–États-Unis, auquel elle a adhéré par auto-certification, et recourir à des clauses contractuelles types ou à d'autres mécanismes appropriés. Selon Expo, le contenu d'une notification est supprimé après sa transmission à Apple ; seul le jeton de notification est conservé.
 
 Le cadre de protection des données UE–États-Unis fait l'objet d'une décision d'adéquation de la Commission européenne.
 
@@ -144,11 +167,13 @@ Certains messages déjà transmis à d'autres utilisateurs peuvent être conserv
 
 Certaines traces techniques, certains signalements, retours utilisateurs et journaux de sécurité peuvent également subsister après la suppression d'un compte.
 
+Les résultats de l'analyse automatique d'une publication sont supprimés avec celle-ci. Le jeton de notification d'un appareil est supprimé lorsque l'utilisateur se déconnecte de cet appareil ou supprime son compte.
+
 À ce jour, aucune suppression automatique n'est appliquée aux signalements, aux avis et retours utilisateurs ni à certains journaux techniques internes : ces données sont conservées jusqu'à leur suppression manuelle. Les messages adressés au support sont supprimés de la base de données avec le compte de leur auteur ; les copies reçues par e-mail sont conservées dans la messagerie de KOWEI. jusqu'à leur suppression manuelle.
 
 Une demande de suppression de ces données peut être adressée à [kowei.app@gmail.com](mailto:kowei.app@gmail.com).
 
-KOWEI. a fixé à 12 mois la durée de conservation des signalements, des messages adressés au support et des avis et retours utilisateurs enregistrés dans l'application, sous réserve des exceptions prévues par la loi. Un mécanisme de suppression automatique correspondant a été mis en place ; il est en cours de vérification et n'est pas encore activé. La présente politique sera mise à jour lors de son activation.
+KOWEI. a fixé à 12 mois la durée de conservation des signalements (et, pour les signalements traités, des preuves associées, à compter de leur traitement), des messages adressés au support et des avis et retours utilisateurs enregistrés dans l'application, sous réserve des exceptions prévues par la loi. Un mécanisme de suppression automatique correspondant a été mis en place ; il est en cours de vérification et n'est pas encore activé. La présente politique sera mise à jour lors de son activation.
 
 Les copies des messages adressés au support et des avis et retours utilisateurs reçues par e-mail sont supprimées manuellement à l'issue du même délai de 12 mois, sauf obligation légale justifiant une conservation plus longue.
 
@@ -161,6 +186,8 @@ L'utilisateur peut demander la suppression de son compte depuis les paramètres 
 Cette opération entraîne la suppression ou l'anonymisation de nombreuses données associées au compte.
 
 Elle n'entraîne pas nécessairement la disparition des messages déjà reçus par d'autres utilisateurs, ni de toutes les informations devant être temporairement conservées pour un motif légitime ou légal.
+
+Pour un compte utilisant « Se connecter avec Apple », la suppression révoque également l'autorisation accordée à KOWEI. auprès d'Apple. Si cette révocation ne peut pas être effectuée automatiquement, l'application l'indique et explique comment la retirer dans les réglages de l'identifiant Apple.
 
 Pour toute question ou demande complémentaire concernant l'effacement des données : [kowei.app@gmail.com](mailto:kowei.app@gmail.com).
 
@@ -197,6 +224,8 @@ KOWEI. est réservé aux personnes âgées d'au moins **16 ans**.
 Lors de l'inscription, l'utilisateur doit confirmer qu'il respecte cette condition.
 
 KOWEI. ne collecte pas la date de naissance complète pour cette vérification.
+
+Un signalement relatif à la sécurité d'un mineur est traité en priorité et entraîne le masquage immédiat de la publication ou de la photo de profil concernée, dans l'attente de son examen. Ces contenus ne sont pas transmis au service d'analyse automatique.
 
 ## 14. Cookies, stockage local et statistiques
 

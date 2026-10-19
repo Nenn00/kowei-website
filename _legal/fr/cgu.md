@@ -9,9 +9,9 @@ lang: fr
 permalink: /terms/
 alt_url: /en/terms/
 provisional: false
-updated: 2026-10-12
+updated: 2026-10-19
 noindex: true
-version: 2026-10-v1
+version: 2026-10-v2
 ---
 
 ## 1. Objet
@@ -52,6 +52,8 @@ Lors de l'inscription, il doit notamment fournir une adresse électronique valid
 
 Le nom et le métier sont facultatifs.
 
+L'inscription et la connexion se font par adresse électronique, avec Google ou avec Apple. Lors de l'inscription, l'utilisateur accepte les présentes conditions et prend connaissance de la [Politique de confidentialité](/privacy/).
+
 L'utilisateur s'engage à fournir des informations qui ne sont pas volontairement trompeuses et à ne pas usurper l'identité d'un tiers.
 
 Il est responsable de la confidentialité de ses moyens de connexion et des activités réalisées depuis son compte, sauf utilisation frauduleuse ne lui étant pas imputable.
@@ -80,6 +82,8 @@ Il est interdit de publier des contenus illégaux, frauduleux, menaçants, harce
 
 Les contenus ne doivent pas être utilisés pour diffuser des logiciels malveillants, organiser des escroqueries ou détourner le fonctionnement du service.
 
+Les publications font l'objet d'une vérification avant d'être rendues visibles, dans les conditions décrites à la section 11.
+
 ## 7. Propriété intellectuelle des utilisateurs
 
 Les utilisateurs conservent leurs droits de propriété intellectuelle sur les contenus originaux qu'ils publient.
@@ -94,7 +98,7 @@ KOWEI. ne peut pas commercialiser les créations originales des utilisateurs aup
 
 ## 8. Messagerie et échanges
 
-KOWEI. propose des fonctionnalités de messagerie permettant aux utilisateurs de communiquer.
+KOWEI. propose des fonctionnalités de messagerie permettant aux utilisateurs de communiquer, notamment par messages écrits, photos, vidéos, messages vocaux et documents.
 
 Selon les relations entre utilisateurs, certains messages peuvent être dirigés vers un espace de demandes avant acceptation.
 
@@ -103,6 +107,8 @@ Chaque utilisateur s'engage à respecter ses interlocuteurs et à ne pas envoyer
 Les messages privés ne sont pas chiffrés de bout en bout.
 
 La suppression d'un message ou d'une conversation sur un compte ne garantit pas nécessairement sa disparition des espaces auxquels d'autres participants ont accès.
+
+Un message reçu peut être signalé par son destinataire ; il est alors transmis à la modération dans les conditions décrites à la section 11.
 
 Les modalités de traitement et de conservation des messages sont précisées dans la [Politique de confidentialité](/privacy/).
 
@@ -133,15 +139,17 @@ L'utilisateur s'engage à ne pas :
 - Porter atteinte à la sécurité, à la disponibilité ou à l'intégrité de l'application.
 - Contourner les restrictions d'accès ou les mesures de modération.
 
+KOWEI. applique une tolérance zéro envers les contenus répréhensibles et les comportements abusifs. Tout manquement peut entraîner le retrait des contenus concernés et la restriction ou la suspension du compte, dans les conditions décrites à la section 11.
+
 ## 11. Signalements, blocage et modération
 
-KOWEI. met à disposition des fonctionnalités permettant de bloquer ou de signaler un compte. Le signalement d'une publication, d'un commentaire ou d'un message n'est pas encore disponible dans l'application.
+KOWEI. met à disposition des fonctionnalités permettant de bloquer un compte et de signaler, depuis l'application, une publication, un projet, un commentaire, un profil, une photo de profil ou un message privé reçu, en choisissant un motif (harcèlement, discours haineux, contenu sexuel inapproprié, violence, menace, spam, usurpation d'identité, violation de droits, contenu illicite, sécurité d'un mineur, autre). La personne signalée n'est pas informée de l'identité de la personne qui signale.
 
-Les signalements sont transmis à l'éditeur et peuvent être examinés manuellement afin de prévenir les abus et de protéger les utilisateurs.
+**Modération avant publication.** Les publications (textes et photos), les photos de profil et les modifications de légende sont analysées automatiquement avant d'être rendues visibles, à l'aide d'un service de modération fourni par OpenAI. Selon le résultat, le contenu est publié, refusé, ou mis en attente d'un examen par une personne. Les vidéos sont toujours examinées par une personne avant publication.
 
-À ce jour, KOWEI. ne dispose ni d'un système de modération automatisé ni d'outils de modération intégrés à l'application. En cas de violation des présentes conditions ou de comportement illicite, l'éditeur peut intervenir manuellement, au cas par cas et dans la limite des moyens techniques disponibles, notamment pour retirer un contenu manifestement illicite. Des mesures de restriction ou de suspension de compte pourront être mises en place ultérieurement.
+**Examen des signalements.** Un signalement ne supprime pas à lui seul un contenu : il est examiné par une personne. Seul un signalement relatif à la sécurité d'un mineur entraîne le masquage immédiat de la publication ou de la photo de profil concernée, dans l'attente de son examen. Les mesures possibles sont : aucune mesure ; masquage temporaire ; retrait du contenu ; effacement d'une partie du profil (présentation, nom affiché, photo) ; restriction temporaire de certaines fonctionnalités (publier, commenter, envoyer des messages) ; suspension de ces fonctionnalités jusqu'à nouvel ordre en cas de violation grave ou répétée.
 
-**Signaler un contenu illicite.** Toute personne peut signaler un contenu qu'elle estime illicite ou contraire aux présentes conditions en écrivant à [kowei.app@gmail.com](mailto:kowei.app@gmail.com), en indiquant :
+**Signaler un contenu illicite par e-mail.** Toute personne, y compris sans compte, peut également signaler un contenu qu'elle estime illicite ou contraire aux présentes conditions en écrivant à [kowei.app@gmail.com](mailto:kowei.app@gmail.com), en indiquant :
 
 - l'emplacement précis du contenu (profil, publication, commentaire ou message, et nom du compte concerné) ;
 - les raisons pour lesquelles ce contenu est jugé illicite ou contraire aux présentes conditions ;
@@ -150,9 +158,9 @@ Les signalements sont transmis à l'éditeur et peuvent être examinés manuelle
 
 L'éditeur accuse réception du signalement, l'examine de manière diligente, objective et non arbitraire, puis informe son auteur de la décision prise et des voies de recours disponibles.
 
-**Décisions.** Lorsqu'un contenu est retiré ou rendu inaccessible, ou qu'une autre mesure est prise à l'égard d'un compte, l'utilisateur concerné en est informé par e-mail, sauf exception prévue par la loi. Ce message précise la mesure prise, les faits sur lesquels elle repose, son fondement (caractère illicite du contenu ou clause des présentes conditions) et les voies de recours. Aucune décision n'est prise par des moyens automatisés.
+**Décisions.** Lorsqu'un contenu est retiré ou rendu inaccessible, ou qu'une autre mesure est prise à l'égard d'un compte, l'utilisateur concerné en est informé dans l'application (Paramètres → Décisions de modération), sauf exception prévue par la loi. Cet avis précise la mesure prise, son motif, son fondement (caractère illicite du contenu ou clause des présentes conditions) et les voies de recours. Le refus d'une publication par l'analyse automatique est indiqué sur la publication concernée, dans l'application.
 
-**Contester une décision.** L'utilisateur concerné ou l'auteur du signalement peut contester gratuitement la décision en écrivant à la même adresse. Sa demande fait l'objet d'un nouvel examen, à l'issue duquel une réponse motivée lui est adressée. Il conserve en tout état de cause la possibilité de saisir les juridictions compétentes.
+**Contester une décision.** L'utilisateur concerné peut contester gratuitement une décision une fois, dans les 30 jours, depuis l'application (Paramètres → Décisions de modération) ou en écrivant à la même adresse ; il peut aussi demander, de la même manière, le réexamen par une personne d'un refus décidé par l'analyse automatique, depuis la publication concernée (« Demander un réexamen »). L'auteur d'un signalement peut contester la suite qui lui a été donnée en écrivant à la même adresse. Sa demande fait l'objet d'un nouvel examen, à l'issue duquel une réponse motivée lui est adressée. Il conserve en tout état de cause la possibilité de saisir les juridictions compétentes.
 
 **Infractions graves.** Lorsque l'éditeur a connaissance d'informations laissant soupçonner une infraction pénale menaçant la vie ou la sécurité d'une ou plusieurs personnes, il en informe sans délai les autorités compétentes.
 
@@ -188,7 +196,7 @@ Certains messages déjà échangés peuvent rester visibles dans les conversatio
 
 Certaines données peuvent être conservées lorsque cela est justifié ou imposé par la réglementation, conformément à la Politique de confidentialité.
 
-En cas de violation grave ou répétée des présentes conditions, l'éditeur peut intervenir dans les conditions décrites à la section 11, sous réserve des garanties légales applicables. Aucun mécanisme de restriction ou de suspension de compte n'est encore intégré à l'application.
+En cas de violation grave ou répétée des présentes conditions, l'éditeur peut restreindre ou suspendre certaines fonctionnalités du compte, dans les conditions décrites à la section 11 et sous réserve des garanties légales applicables.
 
 ## 15. Données personnelles
 

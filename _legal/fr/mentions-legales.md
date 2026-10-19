@@ -9,7 +9,7 @@ lang: fr
 permalink: /legal/
 alt_url: /en/legal/
 provisional: false
-updated: 2026-10-12
+updated: 2026-10-19
 noindex: true
 ---
 
@@ -20,6 +20,8 @@ Le site kowei.app est consacré à KOWEI., une application mobile en cours de d�
 Éditeur : Paul Lagente, personne physique.
 
 KOWEI. est à ce jour un projet personnel et gratuit, sans publicité, abonnement ni paiement intégré. Il est édité en son nom propre par Paul Lagente ; aucune société n'a été constituée pour l'exploiter. Les présentes mentions seront mises à jour si une structure dédiée est créée.
+
+L'application KOWEI. est distribuée sur l'App Store d'Apple par Paul Lagente, au moyen de son compte de développeur individuel.
 
 Adresse électronique : [kowei.app@gmail.com](mailto:kowei.app@gmail.com)
 

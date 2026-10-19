@@ -9,9 +9,9 @@ lang: en
 permalink: /en/terms/
 alt_url: /terms/
 provisional: false
-updated: 2026-10-12
+updated: 2026-10-19
 noindex: true
-version: 2026-10-v1
+version: 2026-10-v2
 ---
 
 ## 1. Purpose
@@ -52,6 +52,8 @@ When signing up, users must in particular provide a valid email address, choose 
 
 The last name and profession are optional.
 
+Sign-up and sign-in are done with an email address, with Google or with Apple. When signing up, users accept these Terms and acknowledge the [Privacy policy](/en/privacy/).
+
 Users undertake not to provide deliberately misleading information and not to impersonate any third party.
 
 Users are responsible for keeping their login credentials confidential and for any activity carried out through their account, except in the case of fraudulent use for which they are not responsible.
@@ -80,6 +82,8 @@ It is prohibited to publish content that is unlawful, fraudulent, threatening, h
 
 Content must not be used to spread malware, carry out scams or misuse the service.
 
+Posts are checked before they become visible, under the conditions described in section 11.
+
 ## 7. Users' intellectual property
 
 Users retain their intellectual property rights in the original content they publish.
@@ -94,7 +98,7 @@ KOWEI. may not market or sell users' original creations to third parties on the 
 
 ## 8. Messaging and exchanges
 
-KOWEI. offers messaging features that allow users to communicate.
+KOWEI. offers messaging features that allow users to communicate, in particular through written messages, photos, videos, voice messages and documents.
 
 Depending on the relationship between users, some messages may be directed to a requests area pending acceptance.
 
@@ -103,6 +107,8 @@ Each user undertakes to treat the people they communicate with respectfully and 
 Private messages are not end-to-end encrypted.
 
 Deleting a message or a conversation from one account does not necessarily guarantee that it disappears from the areas that other participants can access.
+
+A message received may be reported by its recipient; it is then passed on to moderation under the conditions described in section 11.
 
 How messages are processed and retained is explained in the [Privacy policy](/en/privacy/).
 
@@ -133,15 +139,17 @@ Users undertake not to:
 - Compromise the security, availability or integrity of the application.
 - Circumvent access restrictions or moderation measures.
 
+KOWEI. has zero tolerance for objectionable content and abusive behaviour. Any breach may lead to the removal of the content concerned and to the restriction or suspension of the account, under the conditions described in section 11.
+
 ## 11. Reports, blocking and moderation
 
-KOWEI. provides features to block or report an account. Reporting a post, a comment or a message is not yet available in the application.
+KOWEI. provides features to block an account and to report, from within the application, a post, a project, a comment, a profile, a profile photo or a private message received, by choosing a reason (harassment, hate speech, inappropriate sexual content, violence, threat, spam, impersonation, infringement of rights, illegal content, safety of a minor, other). The person reported is not told the identity of the reporting person.
 
-Reports are sent to the publisher and may be reviewed manually in order to prevent abuse and protect users.
+**Moderation before publication.** Posts (text and photos), profile photos and caption edits are analysed automatically before they become visible, using a moderation service provided by OpenAI. Depending on the result, the content is published, refused, or held for review by a person. Videos are always reviewed by a person before publication.
 
-To date, KOWEI. has neither an automated moderation system nor moderation tools built into the application. In the event of a breach of these Terms or unlawful conduct, the publisher may take action manually, on a case-by-case basis and within the limits of the technical means available, in particular to remove manifestly unlawful content. Measures restricting or suspending accounts may be introduced at a later date.
+**Review of reports.** A report does not in itself remove content: it is reviewed by a person. Only a report concerning the safety of a minor immediately hides the post or profile photo concerned, pending review. Possible measures are: no action; temporary hiding; removal of the content; removal of part of the profile (bio, display name, photo); temporary restriction of certain features (posting, commenting, sending messages); suspension of those features until further notice in the event of a serious or repeated breach.
 
-**Reporting illegal content.** Anyone may report content they consider illegal or contrary to these Terms by writing to [kowei.app@gmail.com](mailto:kowei.app@gmail.com), stating:
+**Reporting illegal content by email.** Anyone, including people without an account, may also report content they consider illegal or contrary to these Terms by writing to [kowei.app@gmail.com](mailto:kowei.app@gmail.com), stating:
 
 - the exact location of the content (profile, post, comment or message, and the name of the account concerned);
 - the reasons why the content is considered illegal or contrary to these Terms;
@@ -150,9 +158,9 @@ To date, KOWEI. has neither an automated moderation system nor moderation tools 
 
 The publisher acknowledges receipt of the report, reviews it in a diligent, objective and non-arbitrary manner, and then informs its author of the decision taken and of the available means of redress.
 
-**Decisions.** Where content is removed or disabled, or another measure is taken in respect of an account, the user concerned is informed by email, unless the law provides otherwise. This message states the measure taken, the facts on which it is based, its ground (illegality of the content or a clause of these Terms) and the available means of redress. No decision is taken by automated means.
+**Decisions.** Where content is removed or disabled, or another measure is taken in respect of an account, the user concerned is informed in the application (Settings → Moderation decisions), unless the law provides otherwise. This notice states the measure taken, its reason, its ground (illegality of the content or a clause of these Terms) and the available means of redress. The refusal of a post by the automatic analysis is shown on the post concerned, in the application.
 
-**Challenging a decision.** The user concerned or the author of the report may challenge the decision free of charge by writing to the same address. Their request will be reviewed again, after which they will receive a reasoned response. They may in any event bring the matter before the competent courts.
+**Challenging a decision.** The user concerned may challenge a decision free of charge once, within 30 days, from the application (Settings → Moderation decisions) or by writing to the same address; they may also, in the same way, ask for a refusal decided by the automatic analysis to be reviewed by a person, from the post concerned ("Ask for a review"). The author of a report may challenge the action taken on it by writing to the same address. Their request will be reviewed again, after which they will receive a reasoned response. They may in any event bring the matter before the competent courts.
 
 **Serious offences.** Where the publisher becomes aware of information giving rise to a suspicion of a criminal offence involving a threat to the life or safety of one or more persons, it promptly informs the competent authorities.
 
@@ -188,7 +196,7 @@ Certain messages already exchanged may remain visible in their recipients' conve
 
 Certain data may be kept where this is justified or required by law, in accordance with the Privacy policy.
 
-In the event of a serious or repeated breach of these Terms, the publisher may take action under the conditions described in section 11, subject to the applicable legal safeguards. No mechanism for restricting or suspending accounts is yet built into the application.
+In the event of a serious or repeated breach of these Terms, the publisher may restrict or suspend certain features of the account, under the conditions described in section 11 and subject to the applicable legal safeguards.
 
 ## 15. Personal data
 
